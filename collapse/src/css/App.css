@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.collapse{
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+.collapse button{
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.collapse button:active{
+  opacity: .5;
+  transform: scale(.9);
+}
+.text-content{
+  display: none;
+}
+.text-content.show{
+  display: block;
+}

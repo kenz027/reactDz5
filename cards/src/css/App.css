@@ -1,0 +1,36 @@
+html, body, #root{
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards-list{
+  list-style-type: none;
+  display: flex;
+  gap:20px;
+  align-items: flex-end;
+}
+.card{
+  background-color: white;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  padding: 10px;
+}
+.card *{
+  margin: 15px 0;
+}
+.card img{
+  max-width: 120px;
+}
+.card__title{
+  font-weight: 700;
+}
+.card__descr{
+
+}
+.card__refbutton{
+  background-color: cornflowerblue;
+  padding: 5px 10px;
+}
